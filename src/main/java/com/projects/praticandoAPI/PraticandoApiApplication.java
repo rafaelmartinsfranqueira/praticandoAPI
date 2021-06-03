@@ -26,5 +26,7 @@ public class PraticandoApiApplication  {
 		return "Hello World";
 		}
 	
+	//teste
+	
 	
 }
