@@ -14,5 +14,3 @@ script: ./mvnw clean install
 
 script:
   - java --version
-  - ./mvnw clean install
-  - ./mvnw test
