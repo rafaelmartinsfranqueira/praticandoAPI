@@ -2,4 +2,4 @@ language: java
 jdk:
 - oraclejdk8
 dist: trust
-- chmod +x mvnw
+- chmod +x mvn
