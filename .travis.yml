@@ -1,1 +1,15 @@
+arch: amd64
+
 language: java
+
+jdk: 
+  - oraclejdk15
+
+cache:
+  directories:
+  - $HOME/.m2
+  
+install: true
+
+script:
+  - java --version
