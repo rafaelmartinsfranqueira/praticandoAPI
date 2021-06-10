@@ -45,7 +45,7 @@
 					},
 					mounted () {
 						axios
-					      .get('http://praticandoapi4s.herokuapp.com/usuarios')
+					      .get('http://localhost:8081/usuarios')
 					      .then(response => (this.usuarios = response.data))
 					}
 				});
